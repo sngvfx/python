@@ -1,0 +1,20 @@
+# Dictionary
+print(squares(1, 5))  # Should be [4, 9]
+
+Music = {"Singer": "Michael Jackson", "Title": "Who is it", "Singles": 33, "CD Number": 44}
+
+print(Music)
+print(type(Music))
+print(Music.keys()) # display all keys
+print(Music.values()) # display all values
+print("Title" in Music) # search a key
+Music["Year"]=1989 # add key + value
+print(Music)
+del(Music["Year"]) # add delete a key and it's value
+print(Music)
+Music["Singles"]=33
+print(Music)
+if Music["Singles"] == input("Enter here Value here... "):
+    print("Value Found")
+else:
+    print("Value Not found!")
