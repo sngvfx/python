@@ -1,5 +1,4 @@
 # Dictionary
-print(squares(1, 5))  # Should be [4, 9]
 
 Music = {"Singer": "Michael Jackson", "Title": "Who is it", "Singles": 33, "CD Number": 44}
 
